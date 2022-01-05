@@ -55,16 +55,18 @@ git config --global http.sslVerify false
 
 #### war包部署
 
+```shell
 1. 小皮面板后台 -> 软件管理 -> 安装JDK和tomcat，并启动JDK和tomcat
 2. 小皮面板 -> 新建FTP -> 连接上FTP，将war包放到tomcat的webapps目录下，就可以内网访问了，如果想要外网访问，打开响应端口就可以（tomcat的端口）
 3. 如果想用80端口，但是tomcat一般不是80端口，可以安装nginx，做一个代理，直接在localhosy / {} 里面加入 proxy_pass http://127.0.0.1:8080 (8080端口是你的tomcat的端口号)
 4. 并启动nginx，就可以了，如果有域名可以绑定上域名
+```
 
 #### jar包部署
 
 jar包部署比较麻烦，小皮面板只是辅助，也可以不用小皮面板，直接用putty链接到你的服务器
 
-1. 链接到服务器，安装jdk和tomcat，配置好（JDK的）环境变量，配置方法参考https://blog.csdn.net/jiahao1186/article/details/89532180 
+1. 链接到服务器，安装jdk和tomcat，配置好（JDK的）环境变量，[配置方法参考](https://blog.csdn.net/jiahao1186/article/details/89532180) 
 2. 安装nohup，（鸡鸡的，我安装的时候一直拼错，拼成了nohub）安装方法百度，这个也需要配置环境变量
 3. 然后就和war包的一样了，用ftp将jar包放到一个位置(你觉得放哪合适就放哪吧)
 4. 启动 nohup java -jar 包名.jar &
