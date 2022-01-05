@@ -1,7 +1,10 @@
 {
-  "index": "Introduction",
-  "get-started": "Get Started",
-  "features": "Features",
-  "themes": "Themes",
-  "advanced": "Advanced"
+  "home": "算法",
+  "vue": "Vue",
+  "react": "React",
+  "html": "Html",
+  "css": "CSS",
+  "javascript": "Javascript",
+  "other": "其他",
+  "index": "首页"
 }
