@@ -1,7 +1,7 @@
 export default {
   github: 'https://github.com/deng1101025/nextjs-docs',
   docsRepositoryBase: 'https://github.com/deng1101025/nextjs-docs',
-  titleSuffix: ' – Nextra',
+  titleSuffix: ' – Clyde',
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Clyde</span>
@@ -16,8 +16,8 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the Next.js site builder" />
-      <meta name="og:description" content="Nextra: the Next.js site builder" />
+      <meta name="description" content="vue源码解析，算法，next，闭包" />
+      <meta name="og:description" content="vue源码解析，算法，next，闭包" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
       <meta name="twitter:site:domain" content="nextra.vercel.app" />
@@ -62,6 +62,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Clyde.</>,
+  footerText: <>MIT {new Date().getFullYear()} © 噔噔噔噔邓.</>,
   unstable_faviconGlyph: '👋',
 }
