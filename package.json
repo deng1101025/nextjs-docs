@@ -25,6 +25,6 @@
     "singleQuote": true
   },
   "engines": {
-    "node": ">=16"
+    "node": "=16.15.1"
   }
 }
