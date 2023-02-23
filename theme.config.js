@@ -62,6 +62,9 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © 噔噔噔噔邓.</>,
+  footerText: <>
+    <span>MIT {new Date().getFullYear()} © 噔噔噔噔邓.</span>
+    <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备20010914号-1</a>
+  </>,
   unstable_faviconGlyph: '👋',
 }
